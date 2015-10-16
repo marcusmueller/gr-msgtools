@@ -31,4 +31,5 @@ except ImportError:
 	pass
 
 # import any pure python here
+from variable_to_msg import variable_to_msg
 #

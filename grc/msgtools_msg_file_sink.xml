@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<block>
+  <name>msg_file_sink</name>
+  <key>msgtools_msg_file_sink</key>
+  <category>msgtools</category>
+  <import>import msgtools</import>
+  <make>msgtools.msg_file_sink($fname)</make>
+  <param>
+    <name>file</name>
+    <key>fname</key>
+    <type>file_save</type>
+  </param>
+  <sink>
+    <name>msg</name>
+    <type>message</type>
+  </sink>
+</block>

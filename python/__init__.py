@@ -32,4 +32,5 @@ except ImportError:
 
 # import any pure python here
 from variable_to_msg import variable_to_msg
+from msg_file_sink import msg_file_sink
 #
